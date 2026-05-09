@@ -1,0 +1,22 @@
+# ag-skills-pro — per-project config
+#
+# Skills and rules read this file to adapt their behavior to your project.
+# Edit values in place. The CLI will not overwrite this file on update unless
+# you pass --force.
+
+# auto_commit: true | false
+# When true, skills will run `git add` + `git commit` after completing
+# milestones (design doc written, plan task done, branch finished, etc.).
+# When false, skills skip all git write operations and leave files modified
+# for you to commit manually. Default: false (cautious — opt in when ready).
+auto_commit: false
+
+# tmp_dir: where skills write scratch / session files.
+# Defaults to .agent/tmp/. Use a path inside the project to keep tmp data
+# colocated with the project; system /tmp may be cleaned by the OS.
+tmp_dir: .agent/tmp
+
+# language: optional — primary language for prose responses.
+# Skills will match this in user-facing output (PR descriptions, commit
+# messages, design docs). Leave commented to let the agent choose.
+# language: en

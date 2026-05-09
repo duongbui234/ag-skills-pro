@@ -1,0 +1,45 @@
+{
+  "name": "ag-skills-pro",
+  "version": "0.1.0",
+  "description": "Composable skills, workflows, and always-on rules for Google Antigravity — scaffold .agent/ in one command.",
+  "type": "module",
+  "bin": {
+    "ag-skills-pro": "bin/init.js"
+  },
+  "files": [
+    "bin/",
+    "template/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node bin/init.js --help"
+  },
+  "keywords": [
+    "antigravity",
+    "google-antigravity",
+    "agent",
+    "skills",
+    "workflow",
+    "ai",
+    "tdd",
+    "superpowers"
+  ],
+  "author": {
+    "name": "Duong Bui",
+    "email": "buiducduong2342000@gmail.com",
+    "url": "https://github.com/duongbui234"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/duongbui234/ag-skills-pro#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duongbui234/ag-skills-pro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/duongbui234/ag-skills-pro/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

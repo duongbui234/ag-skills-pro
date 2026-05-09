@@ -1,0 +1,12 @@
+node_modules/
+.git/
+.github/
+.idea/
+.vscode/
+.DS_Store
+*.log
+*.tgz
+test/
+tests/
+.gitignore
+.npmignore
